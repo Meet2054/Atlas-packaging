@@ -4,7 +4,7 @@ import { Leaf, Shield, CheckCircle } from "lucide-react";
 import Image1 from "../../assets/image1.jpg";
 import Image2 from "../../assets/image2.jpg";
 import Image3 from "../../assets/image3.jpg";
-import Image4 from "../../assets/image4.jpg";
+import Image4 from "../../assets/image4.webp";
 import Image5 from "../../assets/image5.jpg";
 import Image6 from "../../assets/image7.jpg";
 
