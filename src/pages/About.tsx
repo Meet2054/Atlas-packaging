@@ -111,7 +111,7 @@ export default function About() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             {[
-              { name: "Santosh Chavan", role: "Founder & CEO", img: "./public/Founder.jpeg" },
+              { name: "Santosh Chavan", role: "Founder & CEO", img: "./assets/Founder.jpeg" },
             ].map((person, i) => (
               <div key={i} className="group">
                 <div className="aspect-[3/4] overflow-hidden bg-surface-container mb-6 rounded-lg">

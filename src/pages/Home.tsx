@@ -49,7 +49,7 @@ export default function Home() {
             </div>
             <div className="absolute inset-0 flex items-center justify-center z-10">
               <img 
-                src="./public/hero.webp" 
+                src="./assets/hero.webp" 
                 alt="Premium Packaging"
                 className="w-full h-full object-contain drop-shadow-2xl"
                 referrerPolicy="no-referrer"

@@ -6,37 +6,37 @@ const projects = [
   {
     category: "Luxury Cosmetics",
     title: "Onyx Essence Collection",
-    image: "./public/Image1.jpg",
+    image: "./assets/Image1.jpg",
     aspect: "aspect-[4/5]"
   },
   {
     category: "Eco-friendly Apparel",
     title: "Sustainable Basics Shipper",
-    image: "./public/Image2.jpg",
+    image: "./assets/Image2.jpg",
     aspect: "aspect-square"
   },
   {
     category: "Artisan Coffee",
     title: "Roaster's Reserve Tin",
-    image: "./public/image3.jpg",
+    image: "./assets/image3.jpg",
     aspect: "aspect-[3/4]"
   },
   {
     category: "Premium Tech",
     title: "Vector Audio Series",
-    image: "./public/image4.webp",
+    image: "./assets/image4.webp",
     aspect: "aspect-square"
   },
   {
     category: "Specialty Skincare",
     title: "Molecular Repair Kit",
-    image: "./public/image7.jpg",
+    image: "./assets/image7.jpg",
     aspect: "aspect-[4/5]"
   },
   {
     category: "Artisan Food",
     title: "Heirloom Confectionery",
-    image: "./public/image5.jpg",
+    image: "./assets/image5.jpg",
     aspect: "aspect-[3/2]"
   }
 ];
