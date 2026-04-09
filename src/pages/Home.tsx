@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowRight, Box, Ruler, Truck, Leaf, Zap, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import Hero from "../../assets/hero.webp";
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
@@ -49,7 +49,7 @@ export default function Home() {
             </div>
             <div className="absolute inset-0 flex items-center justify-center z-10">
               <img 
-                src="./assets/hero.webp" 
+                src={Hero} 
                 alt="Premium Packaging"
                 className="w-full h-full object-contain drop-shadow-2xl"
                 referrerPolicy="no-referrer"

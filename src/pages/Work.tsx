@@ -1,7 +1,13 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Leaf, Shield, CheckCircle } from "lucide-react";
-import Image1 from "../../assets/Image1.jpg";
+import Image1 from "../../assets/image1.jpg";
+import Image2 from "../../assets/image2.jpg";
+import Image3 from "../../assets/image3.jpg";
+import Image4 from "../../assets/image4.jpg";
+import Image5 from "../../assets/image5.jpg";
+import Image6 from "../../assets/image7.jpg";
+
 const projects = [
   {
     category: "Luxury Cosmetics",
@@ -12,31 +18,31 @@ const projects = [
   {
     category: "Eco-friendly Apparel",
     title: "Sustainable Basics Shipper",
-    image: "../../assets/Image2.jpg",
+    image: Image2,
     aspect: "aspect-square"
   },
   {
     category: "Artisan Coffee",
     title: "Roaster's Reserve Tin",
-    image: "../../assets/image3.jpg",
+    image: Image3,
     aspect: "aspect-[3/4]"
   },
   {
     category: "Premium Tech",
     title: "Vector Audio Series",
-    image: "../../assets/image4.webp",
+    image: Image4,
     aspect: "aspect-square"
   },
   {
     category: "Specialty Skincare",
     title: "Molecular Repair Kit",
-    image: "../../assets/image7.jpg",
+    image: Image5,
     aspect: "aspect-[4/5]"
   },
   {
     category: "Artisan Food",
     title: "Heirloom Confectionery",
-    image: "../../assets/image5.jpg",
+    image: Image6,
     aspect: "aspect-[3/2]"
   }
 ];
