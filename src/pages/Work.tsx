@@ -1,50 +1,100 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Leaf, Shield, CheckCircle } from "lucide-react";
-import Image1 from "../../assets/newimage1.jpg";
-import Image2 from "../../assets/newimage2.jpg";
-import Image3 from "../../assets/image3.jpg";
-import Image4 from "../../assets/image4.webp";
-import Image5 from "../../assets/image5.jpg";
-import Image6 from "../../assets/image7.jpg";
+import Image1 from "../../assets/Image1.jpeg";
+import Image2 from "../../assets/Image2.jpeg";
+import Image3 from "../../assets/Image3.jpeg";
+import Image4 from "../../assets/Image4.jpeg";
+import Image5 from "../../assets/Image5.jpeg";
+import Image6 from "../../assets/Image6.jpeg";
+import Image7 from "../../assets/Image7.jpeg";
+import Image8 from "../../assets/Image8.jpeg";
+import Image9 from "../../assets/Image9.jpeg";
+import Image10 from "../../assets/Image10.jpeg";
+import Image11 from "../../assets/Image11.jpeg";
+import Image12 from "../../assets/Image12.jpeg";
+import Image13 from "../../assets/Image13.jpeg";
+import Image14 from "../../assets/Image14.jpeg";
+
+
 
 const projects = [
   {
-    category: "Luxury Cosmetics",
-    title: "Onyx Essence Collection",
+    category: "Luxury Drawer Box Set",
+    title: "Precision-Crafted Drawer Packaging",
     image: Image1,
     aspect: "aspect-[4/5]"
   },
   {
-    category: "Eco-friendly Apparel",
-    title: "Sustainable Basics Shipper",
+    category: "Minimalist Kit Box",
+    title: "Clean Form, Elevated Function",
     image: Image2,
     aspect: "aspect-square"
   },
   {
-    category: "Artisan Coffee",
-    title: "Roaster's Reserve Tin",
+    category: "Cylindrical Premium Case",
+    title: "Bold Packaging with a Circular Identity",
     image: Image3,
     aspect: "aspect-[3/4]"
   },
   {
-    category: "Premium Tech",
-    title: "Vector Audio Series",
+    category: "Classic Hinged Jewelry Box",
+    title: "Timeless Presentation for Precious Pieces",
     image: Image4,
     aspect: "aspect-square"
   },
   {
-    category: "Specialty Skincare",
-    title: "Molecular Repair Kit",
+    category: "Pastel Gift Stack Packaging",
+    title: "Playful Packaging with Premium Appeal",
     image: Image5,
     aspect: "aspect-[4/5]"
   },
   {
-    category: "Artisan Food",
-    title: "Heirloom Confectionery",
+    category: "Multi-Compartment Jewelry Set",
+    title: "Organized Luxury in Every Detail",
     image: Image6,
     aspect: "aspect-[3/2]"
-  }
+  },
+  {
+    category: "Eco Kraft Collection Box",
+    title: "Sustainable Packaging with Natural Charm",
+    image: Image7,
+    aspect: "aspect-[3/2]"
+  },
+  {
+    category: "Compact Gift Cube",
+    title: "Small Size, Strong Impression",
+    image: Image8,
+    aspect: "aspect-[3/2]"
+  },
+  {
+    category: "Premium Watch Cylinder Case",
+    title: "Engineered for Iconic Timepieces",
+    image: Image9,
+    aspect: "aspect-[3/2]"
+  },
+  {
+    category: "Soft Pouch & Box Combo",
+    title: "Dual-Layer Protection, Refined Experience",
+    image: Image14,
+    aspect: "aspect-[3/2]"
+  },
+  {
+    category: "Magnetic Closure Rigid Box",
+    title: "Seamless Closure, Premium Feel",
+    image: Image11,
+    aspect: "aspect-[3/2]"
+  },
+    {
+    category: "Custom Insert Display Box",
+    title: "Tailored Interiors for Perfect Fit",
+    image: Image12,
+    aspect: "aspect-[3/2]"
+  },
+   
+
+
+
 ];
 
 export default function Work() {
